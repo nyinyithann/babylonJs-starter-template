@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "ES2015",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "preserveConstEnums": true,
+        "allowUnreachableCode": false,
+        "removeComments": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "types": [
+            "babylonjs",
+            "babylonjs-gui",
+            "babylonjs-materials"
+        ]
+    },
+    "include": [
+        "src/*.ts",
+        "src/**/*.ts",
+        "__test__/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

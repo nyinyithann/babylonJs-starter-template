@@ -1,0 +1,17 @@
+node_modules/*
+dist/*
+
+#idea folder
+.idea/
+/.idea/
+/.idea/modules.xml
+/.idea/vcs.xml
+
+
+.DS_Store
+
+nohup.out
+stats.json
+
+.vscode
+docs
